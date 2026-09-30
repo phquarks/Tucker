@@ -1,0 +1,11 @@
+.DS_Store
+DerivedData/
+build/
+dist/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+__pycache__/
+*.py[cod]

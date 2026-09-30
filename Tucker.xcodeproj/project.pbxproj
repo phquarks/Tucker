@@ -1,0 +1,102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010000000000000000000001 /* TuckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000101 /* TuckerApp.swift */; };
+		010000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000102 /* AppDelegate.swift */; };
+		010000000000000000000003 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000103 /* AppEnvironment.swift */; };
+		010000000000000000000004 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000104 /* MenuBarController.swift */; };
+		010000000000000000000005 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000105 /* StatusItemController.swift */; };
+		010000000000000000000006 /* HiddenItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000106 /* HiddenItemsController.swift */; };
+		010000000000000000000007 /* MenuBarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000107 /* MenuBarState.swift */; };
+		010000000000000000000008 /* HoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000108 /* HoverController.swift */; };
+		010000000000000000000009 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000109 /* Preferences.swift */; };
+		01000000000000000000000A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01000000000000000000010A /* SettingsView.swift */; };
+		01000000000000000000000B /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01000000000000000000010B /* GeneralSettingsView.swift */; };
+		01000000000000000000000C /* BehaviorSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01000000000000000000010C /* BehaviorSettingsView.swift */; };
+		01000000000000000000000D /* AppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01000000000000000000010D /* AppearanceSettingsView.swift */; };
+		01000000000000000000000E /* KeyboardSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01000000000000000000010E /* KeyboardSettingsView.swift */; };
+		01000000000000000000000F /* AboutSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01000000000000000000010F /* AboutSettingsView.swift */; };
+		010000000000000000000010 /* LaunchAtLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000110 /* LaunchAtLoginService.swift */; };
+		010000000000000000000011 /* KeyboardShortcutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000111 /* KeyboardShortcutService.swift */; };
+		010000000000000000000012 /* DisplayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000112 /* DisplayService.swift */; };
+		010000000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000113 /* Assets.xcassets */; };
+		010000000000000000000014 /* NativeVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000116 /* NativeVisibility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010000000000000000000020 /* Tucker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tucker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010000000000000000000101 /* TuckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuckerApp.swift; sourceTree = "<group>"; };
+		010000000000000000000102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		010000000000000000000103 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		010000000000000000000104 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		010000000000000000000105 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		010000000000000000000106 /* HiddenItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenItemsController.swift; sourceTree = "<group>"; };
+		010000000000000000000107 /* MenuBarState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarState.swift; sourceTree = "<group>"; };
+		010000000000000000000108 /* HoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverController.swift; sourceTree = "<group>"; };
+		010000000000000000000109 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		01000000000000000000010A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		01000000000000000000010B /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		01000000000000000000010C /* BehaviorSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorSettingsView.swift; sourceTree = "<group>"; };
+		01000000000000000000010D /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
+		01000000000000000000010E /* KeyboardSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSettingsView.swift; sourceTree = "<group>"; };
+		01000000000000000000010F /* AboutSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSettingsView.swift; sourceTree = "<group>"; };
+		010000000000000000000110 /* LaunchAtLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginService.swift; sourceTree = "<group>"; };
+		010000000000000000000111 /* KeyboardShortcutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcutService.swift; sourceTree = "<group>"; };
+		010000000000000000000112 /* DisplayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayService.swift; sourceTree = "<group>"; };
+		010000000000000000000113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010000000000000000000114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010000000000000000000115 /* Tucker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tucker.entitlements; sourceTree = "<group>"; };
+		010000000000000000000116 /* NativeVisibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeVisibility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010000000000000000000030 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010000000000000000000040 = {isa = PBXGroup; children = (010000000000000000000041 /* Tucker */, 010000000000000000000042 /* Products */); sourceTree = "<group>"; };
+		010000000000000000000041 /* Tucker */ = {isa = PBXGroup; children = (010000000000000000000050 /* App */, 010000000000000000000051 /* MenuBar */, 010000000000000000000052 /* Settings */, 010000000000000000000053 /* Services */, 010000000000000000000054 /* Resources */, 010000000000000000000114 /* Info.plist */, 010000000000000000000115 /* Tucker.entitlements */); path = Tucker; sourceTree = "<group>"; };
+		010000000000000000000042 /* Products */ = {isa = PBXGroup; children = (010000000000000000000020 /* Tucker.app */); name = Products; sourceTree = "<group>"; };
+		010000000000000000000050 /* App */ = {isa = PBXGroup; children = (010000000000000000000101 /* TuckerApp.swift */, 010000000000000000000102 /* AppDelegate.swift */, 010000000000000000000103 /* AppEnvironment.swift */); path = App; sourceTree = "<group>"; };
+		010000000000000000000051 /* MenuBar */ = {isa = PBXGroup; children = (010000000000000000000104 /* MenuBarController.swift */, 010000000000000000000105 /* StatusItemController.swift */, 010000000000000000000106 /* HiddenItemsController.swift */, 010000000000000000000116 /* NativeVisibility.m */, 010000000000000000000107 /* MenuBarState.swift */, 010000000000000000000108 /* HoverController.swift */); path = MenuBar; sourceTree = "<group>"; };
+		010000000000000000000052 /* Settings */ = {isa = PBXGroup; children = (010000000000000000000109 /* Preferences.swift */, 01000000000000000000010A /* SettingsView.swift */, 01000000000000000000010B /* GeneralSettingsView.swift */, 01000000000000000000010C /* BehaviorSettingsView.swift */, 01000000000000000000010D /* AppearanceSettingsView.swift */, 01000000000000000000010E /* KeyboardSettingsView.swift */, 01000000000000000000010F /* AboutSettingsView.swift */); path = Settings; sourceTree = "<group>"; };
+		010000000000000000000053 /* Services */ = {isa = PBXGroup; children = (010000000000000000000110 /* LaunchAtLoginService.swift */, 010000000000000000000111 /* KeyboardShortcutService.swift */, 010000000000000000000112 /* DisplayService.swift */); path = Services; sourceTree = "<group>"; };
+		010000000000000000000054 /* Resources */ = {isa = PBXGroup; children = (010000000000000000000113 /* Assets.xcassets */); path = Resources; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010000000000000000000060 /* Tucker */ = {isa = PBXNativeTarget; buildConfigurationList = 010000000000000000000090 /* Build configuration list for PBXNativeTarget "Tucker" */; buildPhases = (010000000000000000000070 /* Sources */, 010000000000000000000030 /* Frameworks */, 010000000000000000000071 /* Resources */); buildRules = (); dependencies = (); name = Tucker; productName = Tucker; productReference = 010000000000000000000020 /* Tucker.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010000000000000000000080 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = {010000000000000000000060 = {CreatedOnToolsVersion = 27.0;};};}; buildConfigurationList = 010000000000000000000081 /* Build configuration list for PBXProject "Tucker" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 010000000000000000000040; productRefGroup = 010000000000000000000042 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (010000000000000000000060 /* Tucker */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010000000000000000000071 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (010000000000000000000013 /* Assets.xcassets in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010000000000000000000070 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (010000000000000000000001 /* TuckerApp.swift in Sources */, 010000000000000000000002 /* AppDelegate.swift in Sources */, 010000000000000000000003 /* AppEnvironment.swift in Sources */, 010000000000000000000004 /* MenuBarController.swift in Sources */, 010000000000000000000005 /* StatusItemController.swift in Sources */, 010000000000000000000006 /* HiddenItemsController.swift in Sources */, 010000000000000000000014 /* NativeVisibility.m in Sources */, 010000000000000000000007 /* MenuBarState.swift in Sources */, 010000000000000000000008 /* HoverController.swift in Sources */, 010000000000000000000009 /* Preferences.swift in Sources */, 01000000000000000000000A /* SettingsView.swift in Sources */, 01000000000000000000000B /* GeneralSettingsView.swift in Sources */, 01000000000000000000000C /* BehaviorSettingsView.swift in Sources */, 01000000000000000000000D /* AppearanceSettingsView.swift in Sources */, 01000000000000000000000E /* KeyboardSettingsView.swift in Sources */, 01000000000000000000000F /* AboutSettingsView.swift in Sources */, 010000000000000000000010 /* LaunchAtLoginService.swift in Sources */, 010000000000000000000011 /* KeyboardShortcutService.swift in Sources */, 010000000000000000000012 /* DisplayService.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		010000000000000000000082 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 6.0; }; name = Debug; };
+		010000000000000000000083 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 6.0; }; name = Release; };
+		010000000000000000000091 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = Tucker/Tucker.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Tucker/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.quarks.tucker; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = macosx; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_OBJC_BRIDGING_HEADER = "Tucker/Tucker-Bridging-Header.h"; }; name = Debug; };
+		010000000000000000000092 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = Tucker/Tucker.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEAD_CODE_STRIPPING = YES; DEVELOPMENT_TEAM = ""; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Tucker/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.quarks.tucker; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = macosx; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_OBJC_BRIDGING_HEADER = "Tucker/Tucker-Bridging-Header.h"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010000000000000000000081 /* Build configuration list for PBXProject "Tucker" */ = {isa = XCConfigurationList; buildConfigurations = (010000000000000000000082 /* Debug */, 010000000000000000000083 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		010000000000000000000090 /* Build configuration list for PBXNativeTarget "Tucker" */ = {isa = XCConfigurationList; buildConfigurations = (010000000000000000000091 /* Debug */, 010000000000000000000092 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 010000000000000000000080 /* Project object */;
+}

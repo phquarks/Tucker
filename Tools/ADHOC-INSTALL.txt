@@ -1,0 +1,25 @@
+HOW TO INSTALL TUCKER
+
+1. Drag Tucker.app to the Applications shortcut in this window.
+2. Open Tucker from Applications.
+3. If macOS blocks it, open System Settings > Privacy & Security.
+4. Scroll to Security and click Open Anyway for Tucker.
+5. Enter your Mac password and confirm Open.
+6. Grant Accessibility access when Tucker requests it.
+
+This build is distributed directly by the developer and is not notarized by Apple.
+Only install it if you received this DMG from a source you trust.
+
+
+КАК УСТАНОВИТЬ TUCKER
+
+1. Перетащите Tucker.app на ярлык Applications в этом окне.
+2. Откройте Tucker из папки «Программы».
+3. Если macOS заблокирует запуск, откройте «Системные настройки» >
+   «Конфиденциальность и безопасность».
+4. В разделе «Безопасность» нажмите «Всё равно открыть» для Tucker.
+5. Введите пароль от Mac и подтвердите открытие.
+6. Разрешите Tucker доступ к «Универсальному доступу», когда приложение попросит.
+
+Эта сборка распространяется разработчиком напрямую и не нотарифицирована Apple.
+Устанавливайте её только из источника, которому доверяете.
